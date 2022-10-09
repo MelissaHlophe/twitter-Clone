@@ -1,0 +1,52 @@
+*{
+    background-color: whitesmoke;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.sidebar{
+    border-right: 1px solid rgba(128, 128, 128, 0.648); 
+    height: 800px; 
+    position: fixed;
+    width: 25%;
+    padding-left: 5%;
+}
+.sidebar .info{
+    font-size: 25px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.sidebar button{
+    color:  white;
+    border: none;
+    width:80%;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 6%;
+    background-color: rgb(29, 155, 240);
+
+}
+.sidebar button:hover{
+    color: aquamarine;
+}
+
+.sidebar-icons div{
+    display: flex;
+    border-radius: 40px;
+    padding: 8px 15px;
+    width: fit-content;
+    flex-direction: row;
+    /* background-color: red; */
+}
+#icons-side:hover{
+    background-color: rgba(128, 128, 128, 0.648);;
+}
+.sidebar .hov :hover{
+    background-color: rgba(128, 128, 128, 0.648);
+}
+.sidebar .material-symbols-outlined{
+    font-size: 35px;
+    /* background-color: red; */
+}
