@@ -6,6 +6,7 @@
 body {
     width: 100vw;
     display: flex;
+    overflow: hidden;
     flex-direction: row;
     
 } 
@@ -17,13 +18,12 @@ body {
     cursor: pointer;
   }
   .sidebar {
-    width: 24%;
-    height: 200%;
-    /* overflow-x: hidden; */
-    position: fixed;
+    width: 25%;
+    /* height: 200%; */
+    /* position: fixed; */
     background-color: #ffffff;
     padding-left: 58px;
-    border-right: 1px solid rgba(128, 128, 128, 0.648);
+    border-right: 1px solid #e6ebee;
     /* color:  rgb(29, 155, 240); */
   }
 .sidebar span {
@@ -91,4 +91,110 @@ body {
 .me{
     padding-left: 3%;
 }
+.more svg {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
 
+.tweet-input {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.tweet-input img {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 105%;
+    margin-bottom: 20px;
+}
+.tweet-input input {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.main{
+  width: 75%;
+  height: 100vh;
+  overflow-y: scroll;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+}
+.middle{
+  width: 65%;
+  /* background-color: red; */
+  height: 100vh;
+}
+.end{
+  width: 35%;
+  background-color: grey;
+  height: 100vh;
+}
+.navbar svg{
+  height: 25px;
+ 
+}
+.navbar h3{
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.navbar{
+  /* background-color: yellow; */
+  padding: 10px 15px !important;
+}
+.input img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.input input{
+  margin-left: 3%;
+  border: none;
+  margin-top: 1% ;
+  outline: none;
+  background: none;
+  font-size: 20px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.nav-icons{
+  margin-left: 13%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div svg{
+  margin-left: 8px;
+}
+.nav-icons svg{
+  height: 20px;
+  fill: #72c1f6;
+}
+.nav-icons button{
+    border: none;
+    margin-right: 3%;
+    background-color:  rgb(29, 155, 240);
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+.top-bar{
+  border-bottom: 1px solid #e6ebee;
+  padding-bottom: 12px;
+}
